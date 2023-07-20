@@ -102,6 +102,13 @@
 
 @media screen and (max-width: 500px) {
 
+  .navigation{
+    position: absolute;
+    margin-left: 65vw !important;
+    background: black;
+  }
+  
+  
   
 .hero-image{
   width: 65%;
@@ -274,15 +281,15 @@ padding: 0.5rem;
   z-index: 100000;
 }
 
-
-
+.navigation{
+  position: absolute;
+  margin-left: 75vw !important;
+  background: black;
 }
 
 
 
-
-
-
+}
 
 
 
@@ -375,7 +382,17 @@ padding: 0.5rem;
   z-index: 100000;
 }
 
+.navigation{
+  position: absolute;
+  margin-left: 80vw;
+  background: black;
 }
+
+
+
+}
+
+
 
 @media only screen and (min-width:980px){
 
@@ -452,6 +469,11 @@ padding: 0.5rem;
   z-index: 100000;
 }
 
+.navigation{
+  margin-left: 48vw;
+  opacity: 0.75;
+}
+
 }
 
 
@@ -484,8 +506,18 @@ padding: 0.5rem;
     transform-origin: center bottom;
     z-index: 100000;
   }
+
+
+  .navigation{
+    margin-left: 48vw;
+    opacity: 0.75;
+  }
+  
   
 } 
+
+
+
 
 @media only screen  and (max-width:768){
 
